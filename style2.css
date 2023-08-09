@@ -1,0 +1,38 @@
+a{
+    font-size: 25px;
+    display: block;
+}
+
+div{
+    display: inline;
+}
+
+#A,#B,#C{
+    font-size: 40px;
+    border: 1px;
+    display: inline;
+}
+
+#A{
+    background-color: rgb(96, 131, 196);
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 250px;
+}
+
+#B{
+    background-color: rgb(86, 175, 110);
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+}
+
+#C{
+    background-color: rgb(189, 85, 189);
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 700px;
+}

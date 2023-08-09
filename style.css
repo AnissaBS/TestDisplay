@@ -1,0 +1,21 @@
+.lineair-simple{
+    background: linear-gradient(lightblue, darkblue);
+}
+
+div{
+    height: 280px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+.degrade-horizontal{
+    background: linear-gradient(to right, pink,purple);
+}
+
+.degrade-espacement-auto{
+    background: linear-gradient(lightgreen, green, black);
+}
+
+div{
+    display: inline-block;
+}
